@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 0;
+    background: url("../img/haikei.jpg")center/cover;
+}
+
+header {
+    height: 100vh;
+    background: url("../img/honkai.s.jpg") center/cover;
+}
+
+#gnav {
+    width: 100%;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+#gnav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+#gnav .page {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gnav .m {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A00FF;
+    height: 100%;
+    line-height: 100px;
+    font-size: 2.25em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 2em;
+    border-bottom: 6px solid #1A00FF;
+}
+
+#gnav a {
+    display: block;
+}
+
+#gnav a:hover {
+    opacity: .8;
+}
+
+#gnav .logo img {
+    display: block;
+}
+
+#gnav .page a {
+    height: 100%;
+    line-height: 100px;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 2em;
+}
+
+main {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    height: 1200px;
+    padding: 61px 28px;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+main .logo {
+    margin: 0 auto;
+    width: 838px;
+    height: 440px;
+    flex-shrink: 0;
+}
+
+
+main p {
+    color: #FFF;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+#copyright {
+    color: #fff;
+    font-size: 12px;
+}
